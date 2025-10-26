@@ -34,6 +34,9 @@ You can enable or disable specific tests using macros defined at the top of `mai
 //#define TEST_LCD_DISPLAY // Future use
 //#define TEST_TOUCH       // Future use
 
+``` 
+---
+
 ### Viewing Output
 
 The **32F407DISC_IoT_LCD_SHIELD** includes an onboard **USB-to-UART converter**  
@@ -52,6 +55,17 @@ You can view all diagnostic log messages **directly** by connecting the shield�
    - **Flow Control:** None  
 5. Click **Connect** — real-time diagnostic logs from the STM32 will appear immediately.
 
-> 📘 For detailed hardware connections and USB-to-UART wiring, refer to the  
+### Modules & Drivers Included
+
+This project includes all necessary drivers to use the modules present on the **32F407DIS_IoT_LCD_SHIELD**:
+
+- **ESP32-C6 Wi-Fi module** – connect and communicate via AT commands  
+- **HDC1080 Temperature & Humidity sensor**  
+- **W25Q128 NOR Flash**  
+- **SD Card interface** – FATFS support  
+- **CAN module** – CAN bus communication  
+
+> 📘 For detailed hardware connections, pinout, and module info, refer to the  
 > [Fastbit 32F407DISC IoT LCD Shield User Manual (PDF)](https://github.com/niekiran/fastbit-iot-connect/blob/main/Documents/UserManual/Fastbit%2032F407DISC_IoT_LCD_Shield_UserManual.pdf)
+
 
