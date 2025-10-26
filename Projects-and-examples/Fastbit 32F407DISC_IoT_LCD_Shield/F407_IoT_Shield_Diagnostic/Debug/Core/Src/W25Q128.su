@@ -1,0 +1,12 @@
+../Core/Src/W25Q128.c:33:17:w25qxx_init	24	static
+../Core/Src/W25Q128.c:70:17:w25qxx_read_id	24	static
+../Core/Src/W25Q128.c:91:17:w25qxx_read_data	32	static
+../Core/Src/W25Q128.c:100:17:w25qxx_write_page	40	static
+../Core/Src/W25Q128.c:142:17:w25qxx_erase_sector	24	static
+../Core/Src/W25Q128.c:174:17:w25qxx_erase_chip	16	static
+../Core/Src/W25Q128.c:206:17:w25qxx_get_status	4	static
+../Core/Src/W25Q128.c:211:6:w25qxx_deinit	4	static
+../Core/Src/W25Q128.c:217:24:w25qxx_wait_busy	16	static
+../Core/Src/W25Q128.c:239:13:w25qxx_select	8	static
+../Core/Src/W25Q128.c:245:13:w25qxx_deselect	16	static
+../Core/Src/W25Q128.c:254:24:w25qxx_send_command	32	static
