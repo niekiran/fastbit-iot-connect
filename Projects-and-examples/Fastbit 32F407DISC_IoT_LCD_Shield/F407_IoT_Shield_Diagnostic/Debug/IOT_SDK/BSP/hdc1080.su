@@ -1,0 +1,4 @@
+../IOT_SDK/BSP/hdc1080.c:23:14:hdc1080_init	40	static
+../IOT_SDK/BSP/hdc1080.c:72:14:hdc1080_read_temperature	32	static
+../IOT_SDK/BSP/hdc1080.c:111:14:hdc1080_read_humidity	32	static
+../IOT_SDK/BSP/hdc1080.c:153:14:hdc1080_start_measurement	48	static
